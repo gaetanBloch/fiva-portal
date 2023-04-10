@@ -1,0 +1,11 @@
+@use '@angular/material' as mat;
+@use '../../styles/theme' as theme;
+
+// TailwindCSS
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  @apply p-3;
+}

@@ -1,0 +1,14 @@
+@use 'styles/theme' as theme;
+
+// TailwindCSS
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent-50: red;
+}
+
+* {
+  @apply transition-colors;
+}
