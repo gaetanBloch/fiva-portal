@@ -14,9 +14,8 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Welcome portal'
-    );
+    expect(compiled.querySelector('fiva-portal-button')?.outerHTML)
+      .toEqual("<fiva-portal-button></fiva-portal-button>")
   });
 
   it(`should have as title 'portal'`, () => {
